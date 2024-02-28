@@ -9,10 +9,17 @@ body{
 
 main{
     background-color: white;
-    width: 500px;
+    width: 600px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px, 3px, 5px rgba(0, 0, 0, 0.470);
 }
 
+img.lado{
+    float: right;
+}
 
+.video-wrapper {
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    max-width: 560px; /* Define uma largura máxima para o vídeo */
+}
